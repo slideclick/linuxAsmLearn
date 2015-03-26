@@ -1,5 +1,7 @@
 #include "windows.h"
 #include "stdio.h"
+// this is an example you push stack-pointer to other thread
+
 DWORD WINAPI WriteToDatabase( LPVOID lpParam )
 { 
 

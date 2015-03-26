@@ -5,6 +5,9 @@
 // https://msdn.microsoft.com/zh-cn/library/hh567368.aspx#concurrencytable
 // http://www.ituring.com.cn/article/194454
 // http://blog.csdn.net/haoel/article/details/4028232
+// http://blog.csdn.net/cgxrit/article/details/43741771
+// http://www.aristeia.com/Papers/DDJ_Jul_Aug_2004_revised.pdf
+
 DWORD WINAPI ThreadProc(LPVOID lpParameter)
 {
     static std::string x = std::string(10000000, 'e');

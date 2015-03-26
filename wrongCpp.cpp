@@ -2,6 +2,9 @@
 #include <string>
 #include <windows.h>
 // should not print Oh while it will
+// https://msdn.microsoft.com/zh-cn/library/hh567368.aspx#concurrencytable
+// http://www.ituring.com.cn/article/194454
+// http://blog.csdn.net/haoel/article/details/4028232
 DWORD WINAPI ThreadProc(LPVOID lpParameter)
 {
     static std::string x = std::string(10000000, 'e');
